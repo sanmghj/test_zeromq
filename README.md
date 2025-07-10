@@ -1,5 +1,5 @@
 # ZeroMQ test
-# ==================
+==================
 This is a simple test for ZeroMQ using Python.
 It demonstrates how to set up a ZeroMQ server and client, send messages, and handle them asynchronously.
 
