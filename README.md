@@ -1,15 +1,16 @@
 # ZeroMQ test
 # ==================
-# This is a simple test for ZeroMQ using Python.
-# It demonstrates how to set up a ZeroMQ server and client, send messages, and handle them asynchronously.
+This is a simple test for ZeroMQ using Python.
+It demonstrates how to set up a ZeroMQ server and client, send messages, and handle them asynchronously.
+
 # Requirements
-# ----------------
-# - Python 3.x
-# - ZeroMQ library for Python (pyzmq)
-# - Install dependencies using pip:
-#   ```bash
-#   pip install pyzmq
-#   ```
+----------------
+- Python 3.x
+- ZeroMQ library for Python (pyzmq)
+- Install dependencies using pip:
+  ```bash
+  pip install pyzmq
+  ```
 # Usage
 # ----------------
 # 1. Start the Subscribe:
