@@ -7,7 +7,7 @@ It demonstrates how to set up a ZeroMQ server and client, send messages, and han
 - ZeroMQ library for Python (pyzmq)
 - Install dependencies using pip:
   ```bash
-  pip install pyzmq
+  pip3 install pyzmq
   ```
 # Usage
 1. Start the Subscribe:
