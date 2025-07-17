@@ -16,7 +16,7 @@ def connect_publisher(host="localhost", port="5555"):
     _pub_socket = _context.socket(zmq.PUB)
     _pub_socket.connect(f"tcp://{host}:{port}")
     # print(f"Publisher connected to {host}:{port}")
-    time.sleep(0.01)
+    time.sleep(0.1)
 
     return _pub_socket
 

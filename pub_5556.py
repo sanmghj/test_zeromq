@@ -10,7 +10,7 @@ def main():
             send_message("test", "Hello, World! Count: {}".format(count), port="5555")
             # 잠시 대기
             time.sleep(0.5)
-            send_message("recv", "Hello! Count: {}".format(count), port="5556")
+            send_message("recv", "pub_5556.py Count: {}".format(count), port="5556")
             time.sleep(0.5)
             count += 1
 
