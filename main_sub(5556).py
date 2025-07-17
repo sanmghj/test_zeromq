@@ -3,19 +3,20 @@ import time
 
 def main():
     # Subscriber로 연결
-    topics = ["recv"]
-    connect_subscriber(topics, port="5556")  # 특정 토픽 구독
+    # topics = ["recv"]
+    # connect_subscriber(topics, port="5556")  # 특정 토픽 구독
+    connect_subscriber(port="5556")  # 모든 메시지 수신
 
     print("메시지 수신 대기 중...")
 
     while True:
         try:
             # 메시지 수신
-            result = recv_message("recv")
+            result = recv_message()
 
             if result:
-                topic, message = result
-                print(f"수신된 메시지: {topic} - {message}")
+                # topic, message = result
+                print(f"수신된 메시지: {result}")
 
             time.sleep(0.5)
 
